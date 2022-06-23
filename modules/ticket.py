@@ -1,6 +1,6 @@
 import json
-from flask import Blueprint, jsonify, request
 import requests
+from flask import Blueprint, jsonify, request
 
 ticket_blueprint = Blueprint('ticket', __name__)
 
